@@ -39,16 +39,22 @@
   .container {
     padding: 100px;
     display: flex;
-    flex-wrap: wrap;
+    //flex-wrap: wrap;
+    flex-direction: row;
     gap: 20%;
     justify-content: center;
-    width: 90%;
+    width: 100%;
     max-width: 1200px;
     margin: auto;
     perspective: 1000px; // For 3D effect
+    //position: absolute;
 
     @include mobile{
-        padding: 110px;
+        padding: 100px;
+        max-width: 1000px;
+        width: 90%;
+        gap: 50px;
+        flex-direction: column;
     }
 
     .card {

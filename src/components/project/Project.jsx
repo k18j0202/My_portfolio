@@ -18,6 +18,7 @@ const items = [
     urlFigma: "https://www.figma.com/proto/9JDxBtINj0iQYttMM1kuBE/Hackathan-Project?node-id=0-1&t=yIcSKmZbtgdRaKhR-1",
     desc: "Created a Figma design and developed the front-end using React and Vite for a static Diastart management website. The project features a clean, responsive layout with static content, ensuring fast load times and an engaging user experience.",
   },
+ 
 ];
 
 const Single = ({ item }) => {
