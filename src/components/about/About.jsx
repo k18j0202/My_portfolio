@@ -1,7 +1,7 @@
 import "./about.scss"
 
 const About = () => {
-    const email ="pushparajln1025@gmail.com";
+    const email ="ratchagankarthik623@gmail.com";
   return (
     <div className='about'>
         <div className='div1'>
